@@ -50,8 +50,23 @@ class principal extends React.Component {
           <div className="data__titulo">
             <h1>Who am I?</h1>
             <div className="data__contenedor">
-              <div className="data__type">Profile:</div>
-              <div className="data__desc"></div>
+              <div className="data__type">
+                <h3>Profile:</h3>
+              </div>
+              <div className="data__desc">
+                <p>
+                  I’m a front-end developer focusing in crafting the best
+                  digital experiences for web. I love to convert designs into
+                  functional, lovable and accessible digital products. With more
+                  than 5 years of experience in the industry, I’ve built various
+                  products for individuals ranging from simple landing pages to
+                  big financial systems using big data. As a freelancer, I’ve
+                  worked with a variety of clients. At the moment, I’m working
+                  with EMAD team to create a new financial experience that
+                  attract new customers. While I’m primarily a front-end
+                  developer I like to get my hands dirty
+                </p>
+              </div>
             </div>
           </div>
         </section>

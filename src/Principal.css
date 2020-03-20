@@ -75,3 +75,11 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.data__type {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.data__desc {
+  text-align: left;
+}
