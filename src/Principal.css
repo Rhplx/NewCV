@@ -1,0 +1,77 @@
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(54, 0, 51, 0.9),
+      rgba(11, 136, 147, 0.7)
+    ),
+    url("./media/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.intro {
+  height: 100vh;
+  width: 80%;
+  padding-top: 70px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+}
+.intro h1 {
+  font-size: 48px;
+}
+.intro_iconos {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+}
+.intro__icono {
+  width: 50px;
+  margin-left: 5px;
+}
+.intro__subtitulo {
+  font-size: 50px;
+  margin-top: 180px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.intro__descripcion p {
+  font-size: 20px;
+  margin-top: 12px;
+  color: whitesmoke;
+}
+.intro button {
+  border: none;
+  background-color: transparent;
+  color: none;
+  padding-left: 0;
+}
+.intro button span {
+  padding: 10px;
+  color: white;
+  font-size: 35px;
+  padding-left: 0;
+  transition: 0.4s all;
+  border-bottom: 1px solid rgba(71, 71, 71, 0.7);
+  transition: 0.5s all;
+}
+.intro button:hover span {
+  color: rgba(12, 169, 184, 0.842);
+  border-bottom: 1px solid rgba(11, 136, 147, 0.7);
+}
+.data {
+  width: 60%;
+  margin-top: 40px;
+  margin: 40px auto 10px auto;
+}
+.data__titulo {
+  width: 100%;
+  text-align: center;
+}
+.data__titulo h1 {
+  font-size: 48px;
+}
+.data__contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
