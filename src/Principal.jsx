@@ -2,7 +2,7 @@ import React from "react";
 import "./Principal.css";
 import Typewriter from "typewriter-effect";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { Jump } from "react-jump";
 import {
   faGithubSquare,
   faLinkedin,
@@ -49,7 +49,9 @@ class principal extends React.Component {
               </p>
             </div>
             <button>
-              <span>Let’s work together</span>
+              <Jump target={".contact"}>
+                <span>Let’s work together</span>
+              </Jump>
             </button>
             <div className="intro__iconos">
               <a
@@ -207,10 +209,14 @@ class principal extends React.Component {
                 <span role="img" aria-label="heart">
                   ❤️
                 </span>
-                and React [{" "}
-                <a href="" target="_blank">
+                and React [
+                <a
+                  href="https://github.com/Rhplx/NewCV"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Source code in GitHub
-                </a>{" "}
+                </a>
                 ]
               </p>
             </div>

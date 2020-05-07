@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-jump": "0.0.9",
     "react-scripts": "3.4.0",
     "typewriter-effect": "^2.13.0"
   },

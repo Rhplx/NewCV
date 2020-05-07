@@ -68,8 +68,7 @@ header {
 }
 .data {
   width: 60%;
-  margin-top: 40px;
-  margin: 40px auto 10px auto;
+  margin: 40px auto 80px auto;
 }
 .data__titulo {
   width: 100%;
@@ -91,7 +90,7 @@ header {
 
 .data__desc {
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
 }
 .logos {
   display: grid;
@@ -148,4 +147,44 @@ header {
 .contact__end {
   color: white;
   margin-top: 140px;
+  text-align: right;
+}
+
+.contact__end a {
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}
+
+@media screen and (max-width: 1000px) {
+  .intro {
+    width: 95%;
+  }
+  .data {
+    width: 85%;
+  }
+  .data__contenedor {
+    grid-template-columns: 1fr;
+  }
+  .contact__container {
+    text-align: center;
+  }
+  .enlaceResumen {
+    margin: auto;
+  }
+  .intro__iconos {
+    right: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .intro h1 {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .intro__iconos {
+    position: relative;
+    text-align: center;
+    right: 0;
+    top: 0;
+    margin: 40px 0;
+  }
 }
