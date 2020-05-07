@@ -1,7 +1,7 @@
 header {
   background-image: linear-gradient(
       to right,
-      rgba(54, 0, 51, 0.9),
+      rgba(54, 0, 51, 0.7),
       rgba(11, 136, 147, 0.7)
     ),
     url("./media/bg.jpg");
@@ -20,14 +20,21 @@ header {
 .intro h1 {
   font-size: 48px;
 }
-.intro_iconos {
+.intro__iconos {
   position: absolute;
-  top: 80px;
+  top: 70px;
   right: 100px;
+  font-size: 48px;
+}
+.intro__iconos a {
+  color: white;
+  transition: 0.5s all;
+}
+.intro__iconos a:hover {
+  color: rgb(172, 172, 172);
 }
 .intro__icono {
-  width: 50px;
-  margin-left: 5px;
+  margin: 0 5px;
 }
 .intro__subtitulo {
   font-size: 50px;
@@ -79,7 +86,66 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  font-size: 30px;
 }
+
 .data__desc {
   text-align: left;
+  font-size: 20px;
+}
+.logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+  text-align: center;
+  font-size: 65px;
+}
+.logos img {
+  height: 90px;
+  width: 100%;
+}
+.enlaceResumen {
+  color: black;
+  margin-top: 20px;
+  font-size: 25px;
+  transition: 1s all;
+}
+.data__cv {
+  display: flex;
+  align-items: center;
+}
+.enlaceResumen:hover {
+  font-size: 30px;
+}
+.icon__cointainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon__cointainer p {
+  font-size: 15px;
+  margin: 4px auto 10px auto;
+}
+.contact {
+  background-color: #0f1010;
+  padding: 70px 0 20px 0;
+}
+.contact__container {
+  width: 80%;
+  margin: auto;
+}
+.contact__container h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+}
+.contact__container h3 {
+  color: rgb(221, 219, 219);
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.contact__end {
+  color: white;
+  margin-top: 140px;
 }
